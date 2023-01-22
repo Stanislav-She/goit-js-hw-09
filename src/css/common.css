@@ -16,3 +16,50 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.body__timer {
+  background: #2f303a;
+}
+.btn {
+  display: block;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 10px;
+  width: 100px;
+  height: 50px;
+  padding: 0 0 0 0;
+  background: #b2bdc6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 900;
+  font-size: 23px;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.value {
+  font-family: 'Titillium Web', sans-serif;
+  color: #02895e;
+  font-weight: 900;
+  font-size: 200px;
+}
+
+.label {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 33px;
+  text-transform: uppercase;
+  color: #0d7e5a;
+}
