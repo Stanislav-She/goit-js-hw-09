@@ -29,7 +29,7 @@ let dateChoice = flatpickr('#datetime-picker', {
       return;
     } else {
       refs.buttonStart.disabled = false;
-      refs.buttonStart.style.cssText = 'background: #2196F3';
+      refs.buttonStart.style.cssText = 'background: #0d7e5a';
     }
   },
 });
